@@ -16,6 +16,6 @@ Vagrant.configure("2") do |config|
     ############################################################
     # Provisioning with Ansible (Installed in the host machine)
     config.vm.provision "ansible" do |ansible|
-        ansible.playbook = "/Users/fernandovarela/Documents/DOCS FERNANDO MAC/ansible/playbook-ubuntu3.yml"
+        ansible.playbook = "/Users/fernandovarela/Documents/DOCS FERNANDO MAC/ansible/ansible-demo-project/playbook-ubuntu3.yml"
     end
 end
